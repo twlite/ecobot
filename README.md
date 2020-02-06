@@ -40,6 +40,9 @@ module.exports = {
 npm start
 ```
 
+# Or clone it in `glitch.com`
+[https://glitch.com/edit/#!/import/git?url=https://github.com/INEX07/ecobot](https://glitch.com/edit/#!/import/git?url=https://github.com/INEX07/ecobot)
+
 # Commands
 - bal
 - beg
