@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/INEX07/ecobot.git"
+    "url": "git+https://github.com/Snowflake107/ecobot.git"
   },
   "keywords": [
     "eco",
@@ -17,14 +17,14 @@
     "quick.db-economy",
     "quick.eco"
   ],
-  "author": "INEX07",
+  "author": "Snowflake7",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/INEX07/ecobot/issues"
+    "url": "https://github.com/Snowflake107/ecobot/issues"
   },
-  "homepage": "https://github.com/INEX07/ecobot#readme",
+  "homepage": "https://github.com/Snowflake107/ecobot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "quick.eco": "^1.0.2"
+    "quick.eco": "^2.0.3"
   }
 }
