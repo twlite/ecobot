@@ -17,11 +17,11 @@ module.exports.execute = async (client, message, args) => {
     }
     
     if (event1 === event2) {
-        let remove = await client.eco.removeMoney(client.ecoAddUser, 100);
+        let remove = client.eco.removeMoney(client.ecoAddUser, 100);
         if (remove.error) return message.channel.send(`**${items[Math.floor(Math.random() * items.length)]}:** Get Lost!`);
         else return message.channel.send(`You were caught! You paid 100 💸 to stay out of the prison.`);
     }
-    let search = await client.eco.addMoney(client.ecoAddUser, amount);
+    let search = client.eco.addMoney(client.ecoAddUser, amount);
     client.db.set(`searchcooldown_${userid}`, Date.now());
     return message.reply(`You searched inside **${items[Math.floor(Math.random() * items.length)]}** and found **${search.amount}** 💸. Now you have **${search.after}** 💸.`);
 };
