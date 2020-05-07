@@ -4,7 +4,7 @@ Simple economy bot for discord written in discord.js.
 # Setup
 ## Download
 ```
-git clone https://github.com/INEX07/ecobot
+git clone https://github.com/Snowflake107/ecobot
 ```
 
 ## **Edit `botConfig.js`**
@@ -41,7 +41,7 @@ npm start
 ```
 
 # Or clone it in `glitch.com`
-[https://glitch.com/edit/#!/import/git?url=https://github.com/INEX07/ecobot](https://glitch.com/edit/#!/import/git?url=https://github.com/INEX07/ecobot)
+[https://glitch.com/edit/#!/import/git?url=https://github.com/Snowflake107/ecobot](https://glitch.com/edit/#!/import/git?url=https://github.com/Snowflake107/ecobot)
 
 # Commands
 - bal
@@ -58,4 +58,4 @@ npm start
 # Links
 - **[quick.eco](https://www.npmjs.com/package/quick.eco)**
 - **[quick.db](https://www.npmjs.com/package/quick.db)**
-- **[Discord](https://discord.gg/AHdaSqr)**
+- **[Discord](https://discord.gg/uqB8kxh)**
