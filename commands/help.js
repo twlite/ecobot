@@ -2,7 +2,9 @@ const { RichEmbed } = require("discord.js");
 
 module.exports.execute = async (client, message, args) => {
     const embed = new RichEmbed()
-        .setTitle("Commands")
+        .setAuthor("Commands")
+        .setTitle("Source Code")
+        .setURL("https://github.com/Snowflake107/ecobot")
         .setDescription(`Total Commands: ${client.commands.size}`)
         .setColor("BLURPLE")
         .setTimestamp()
