@@ -18,5 +18,6 @@ module.exports = {
             name: "{servers} servers"
         }
     ],
-    debug: true
+    debug: true,
+    countChannel: "CHANNEL_ID"
 };
