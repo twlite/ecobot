@@ -5,7 +5,7 @@ module.exports.execute = async (client, message, args) => {
   let content = "";
   
   for (var i in items) {
-    content += `${items[i]} - :dollar: ${client.shop[items[i]].prize}\n`
+    content += `${items[i]} - :dollar: ${client.shop[items[i]].cost}\n`
   }
   
   let embed = new RichEmbed()
