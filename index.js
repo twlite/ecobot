@@ -6,6 +6,17 @@ client.db = Eco.db; // quick.db
 client.config = require("./botConfig");
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
+client.shop = {
+  laptop: {
+    cost: 2000
+  },
+  mobile: {
+    cost: 1000
+  },
+  pc: {
+    cost: 3000
+  }
+};
 const fs = require("fs");
 
 fs.readdir("./events/", (err, files) => {
