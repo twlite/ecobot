@@ -8,7 +8,7 @@ module.exports.execute = async (client, message, args) => {
   let hasItem = client.shop[item.toLowerCase()];
   if (!hasItem || hasItem == undefined) return message.reply("That item doesnt exists lol");
   let isBalanceEnough = (userBalance.amount >= hasItem.cost);
-  if (!isBalanceEnough) return message.reply("Your balance is insufficient. You need :dollar: "+hasItem.prize+" to buy this item.");
+  if (!isBalanceEnough) return message.reply("Your balance is insufficient. You need :dollar: "+hasItem.cost+" to buy this item.");
   let buy = client.eco.removeMoney(message.author.id, hasItem.cost);
   
   let itemStruct = {
